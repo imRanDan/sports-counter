@@ -1,0 +1,116 @@
+@font-face {
+    src: url("CursedTimerUlil-Aznm.ttf");
+    font-family:Cursed Timer;
+}
+
+h3 {
+    color: white;
+}
+
+body {
+    margin: 0;
+    background: #1B244A;
+    font-family: url(CursedTimerUlil-Aznm.ttf)
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.scores-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.home-score-container {
+    height: 120px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:Cursed Timer;
+    font-size: 90px;
+    
+    color: #881337;
+    background: #080001;
+    border-radius: 5px;
+} 
+
+.away-score-container {
+    height: 120px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:Cursed Timer;
+    font-size: 90px;
+    
+    color: #881337;
+    background: #080001;
+    border-radius: 5px;
+}
+
+.home {
+   display: flex;
+   align-content: center;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   
+}
+
+.away {
+   display: flex;
+   align-content: center;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+}
+
+.home-buttons {
+    margin-top: 10px;
+    
+}
+
+.home-buttons button {
+    padding: 10.5px;
+    border-radius: 5px;
+    background: transparent;
+    color: #9AABD8;
+    border: 1px solid #9AABD8;
+    font-family:Cursed Timer;
+    margin: 4px 2px;
+    
+    cursor: pointer;
+}
+
+.away-buttons {
+    margin-top: 10px;
+}
+
+.away-buttons button {
+    padding: 10.5px;
+    border-radius: 5px;
+    background: transparent;
+    color: #9AABD8;
+    border: 1px solid #9AABD8;
+    font-family:Cursed Timer;
+    margin: 4px 2px;
+    
+    cursor: pointer;
+}
+
+
+#new-game {
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 10.5px;
+    background: transparent;
+    color: white;
+    font-family: Cursed Timer;
+    font-size: 25px;
+    border: 2px solid white;
+    
+    cursor: pointer;
+}
